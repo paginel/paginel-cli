@@ -1,0 +1,45 @@
+{
+  "company": {
+    "name": "Bluefin Studio",
+    "address": "1 Example Street, 75001 Paris",
+    "vat": "FR00 123456789",
+    "iban": "FR76 0000 0000 0000 0000 0000 000"
+  },
+  "invoice": {
+    "number": "2026-0117",
+    "date": "11 November 2026",
+    "due": "11 December 2026"
+  },
+  "client": {
+    "name": "Example Retail Ltd",
+    "street": "20 Example Road",
+    "city": "Manchester M1 1AA, United Kingdom"
+  },
+  "summary": "<!-- table: widths 50% 25% 25% -->\n| <!-- cell: fill #DEEAF6 --> Phase | <!-- cell: fill #DEEAF6 --> Days | <!-- cell: fill #DEEAF6 --> Amount (EUR) |\n|---|---:|---:|\n| Brand workshop | 1 | 900.00 |\n| Logo design, *three proposals* | 4 | 2,400.00 |\n| Print files and **brand guide** | 2 | 1,200.00 |",
+  "lines": [
+    {
+      "description": "Brand workshop, *half a day on site*",
+      "quantity": "1",
+      "unit_price": "900.00",
+      "amount": "900.00"
+    },
+    {
+      "description": "Logo design, three proposals and **two rounds of changes**",
+      "quantity": "4",
+      "unit_price": "600.00",
+      "amount": "2,400.00"
+    },
+    {
+      "description": "Print files (PDF, SVG, PNG) and a 12-page brand guide",
+      "quantity": "2",
+      "unit_price": "600.00",
+      "amount": "1,200.00"
+    }
+  ],
+  "totals": {
+    "subtotal": "4,500.00",
+    "vat": "900.00",
+    "total": "5,400.00"
+  },
+  "payments": []
+}

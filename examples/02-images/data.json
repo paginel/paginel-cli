@@ -1,0 +1,25 @@
+{
+  "logo": "![Bluefin Studio](images/logo.png \"height 1cm\")",
+  "issue": "November 2026",
+  "title": "A good year for the workshop",
+  "intro": "Orders keep growing, a new lamp joins the shop, and the team moved into a bigger workshop. Here is the news in pictures.",
+  "chart": "![Orders per month](images/chart.png)",
+  "chart_caption": "orders per month, January to October 2026.",
+  "product": "![The Harbour lamp](images/lamp.png \"width 5cm\")",
+  "product_text": "The **Harbour lamp** is our first lamp with a dimmer. Its arm is made of recycled aluminium, and its shade turns in every direction. *Available from 1 December.*",
+  "team": "![The team](images/team.png \"width 50%\")",
+  "team_caption": "Four people design, build and ship everything you order.",
+  "workshop": "![The workshop](images/workshop.png \"right; width 35%\")\nOur new workshop is twice as large as the old one. Every lamp is assembled and tested here, on the bench by the window, before it leaves in its box.\n\nYou are welcome to visit on the first Saturday of each month, from 10:00 to 16:00. Write to hello@example.org to book a slot: we keep groups small, so that everyone can try the tools.",
+  "best_sellers": [
+    {
+      "name": "**Morning mug**, 350 ml",
+      "photo": "![Morning mug](images/mug.png \"width 60%\")",
+      "price": "18.00 EUR"
+    },
+    {
+      "name": "**Sketch notebook**, A5, 120 pages",
+      "photo": "![Sketch notebook](images/notebook.png \"width 60%\")",
+      "price": "12.50 EUR"
+    }
+  ]
+}

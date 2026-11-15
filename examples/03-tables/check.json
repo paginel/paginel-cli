@@ -1,0 +1,15 @@
+{
+  "output": "out/invoice.docx",
+  "contains": [
+    "Example Retail Ltd",
+    "Brand workshop",
+    "two rounds of changes",
+    "2,400.00",
+    "5,400.00",
+    "No payment has been received yet."
+  ],
+  "not_contains": ["{{", "}}", "This invoice has no line items"],
+  "images": 1,
+  "tables": 3,
+  "rows": [4, 7, 1]
+}

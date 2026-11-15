@@ -1,0 +1,15 @@
+{
+  "output": "out/letter.docx",
+  "contains": [
+    "Dear Alex Morgan,",
+    "Your order is on its way",
+    "What happens next",
+    "We pack your lamp in recycled cardboard.",
+    "15% off",
+    "Camille Durand",
+    "Customer care"
+  ],
+  "not_contains": ["{{", "}}", "The Bluefin Studio team", "closing formula"],
+  "images": 0,
+  "tables": 0
+}

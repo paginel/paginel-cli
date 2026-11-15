@@ -1,0 +1,20 @@
+{
+  "organisation": "Atelier Lumière",
+  "titre": "lancement du nouveau site",
+  "date_début": "12 novembre 2026",
+  "lieu": "Lyon, salle Garance",
+  "rédacteur": "Inès Moreau",
+  "participants": [
+    { "nom": "Inès Moreau", "rôle": "direction" },
+    { "nom": "Hugo Bernard", "rôle": "développement" },
+    { "nom": "Léa Fontaine", "rôle": "communication" }
+  ],
+  "ordre_du_jour": "1. Date de mise en ligne\n2. Contenu de la page d’accueil\n3. Annonce aux clients",
+  "décisions": "- Le site ouvre le **1er décembre 2026**.\n- La page d’accueil présente les trois ateliers, avec *une photo chacun*.\n- L’annonce part par courriel la veille de l’ouverture.",
+  "actions": [
+    { "tâche": "Écrire les textes de la page d’accueil", "qui": "Léa Fontaine", "quand": "20 novembre" },
+    { "tâche": "Mettre en place le formulaire de contact", "qui": "Hugo Bernard", "quand": "25 novembre" },
+    { "tâche": "Préparer le courriel d’annonce", "qui": "Inès Moreau", "quand": "28 novembre" }
+  ],
+  "prochaine_réunion": { "date": "26 novembre 2026", "heure": "10 h", "lieu": "en visioconférence" }
+}

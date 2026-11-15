@@ -1,0 +1,95 @@
+paginel-text — Copyright (c) 2026 Jérémy Laviole, entrepreneur individuel (EI), SIREN 130 348 519. All rights reserved.
+
+—— English ——
+
+paginel-text is free, proprietary software. Its source code is not published.
+
+You may, free of charge:
+
+- download, install and run paginel-text on any number of computers, servers and virtual machines,
+  for any purpose, including commercial purposes;
+- run it in continuous integration (for example GitHub Actions or GitLab CI) and in containers;
+- call it from your own programs and scripts, whatever their licence;
+- redistribute the unmodified archive or binary as part of a container image, a continuous
+  integration image, a virtual machine image or an installation script, provided that this LICENSE
+  and THIRD-PARTY-LICENSES.txt go with it and that you do not charge for paginel-text itself.
+
+You may not:
+
+- modify, decompile, disassemble or reverse engineer paginel-text, except where the law allows it
+  notwithstanding this restriction;
+- sell, rent, lend or sublicense paginel-text, distribute it on its own as a product of yours, or
+  distribute modified copies;
+- remove or change its copyright and licence notices.
+
+The documents you make with paginel-text are yours: the author claims no right on them.
+
+The documentation and the examples of this repository (the docs/ and examples/ folders) are under
+the MIT No Attribution licence: see docs/LICENSE and examples/LICENSE.
+
+No warranty. paginel-text is provided "as is" and "as available", without warranty of any kind,
+express or implied, to the extent permitted by law: in particular no warranty of merchantability,
+of fitness for a particular purpose, of non-infringement, of accuracy of the documents it produces,
+or that it will run without errors or interruption. You alone choose to use it and check what it
+produces before you rely on it. The author has no obligation to provide support, maintenance,
+corrections or new versions, and may change or stop paginel-text at any time.
+
+No liability. To the extent permitted by law, the author shall not be liable for any damage, direct
+or indirect, arising from the use of paginel-text or from the inability to use it, including loss
+or corruption of data or documents, loss of profit, business interruption or claims of third
+parties, even if advised of the possibility of such damage.
+
+The third-party components that paginel-text includes (libraries, fonts) keep their own licences:
+see THIRD-PARTY-LICENSES.txt in each archive.
+
+Because this repository is public, GitHub's Terms of Service let other GitHub users view it and copy
+("fork") it on GitHub.
+
+—— Français ——
+
+paginel-text est un logiciel propriétaire, gratuit. Son code source n'est pas publié.
+
+Vous pouvez, gratuitement :
+
+- télécharger, installer et utiliser paginel-text sur autant d'ordinateurs, de serveurs et de
+  machines virtuelles que vous voulez, pour tout usage, y compris commercial ;
+- l'utiliser en intégration continue (par exemple GitHub Actions ou GitLab CI) et dans des
+  conteneurs ;
+- l'appeler depuis vos propres programmes et scripts, quelle que soit leur licence ;
+- redistribuer l'archive ou le binaire non modifiés dans une image de conteneur, une image
+  d'intégration continue, une image de machine virtuelle ou un script d'installation, à condition
+  que ce fichier LICENSE et THIRD-PARTY-LICENSES.txt les accompagnent et que vous ne fassiez pas
+  payer paginel-text lui-même.
+
+Vous ne pouvez pas :
+
+- modifier paginel-text, le décompiler, le désassembler ni en étudier le fonctionnement interne par
+  rétro-ingénierie, sauf dans les cas où la loi le permet malgré cette interdiction ;
+- vendre, louer, prêter ou sous-licencier paginel-text, le diffuser seul comme un produit à vous, ni
+  en diffuser des copies modifiées ;
+- retirer ou modifier ses mentions de droit d'auteur et de licence.
+
+Les documents que vous faites avec paginel-text sont à vous : l'auteur n'y revendique aucun droit.
+
+La documentation et les exemples de ce dépôt (dossiers docs/ et examples/) sont sous licence MIT No
+Attribution : voir docs/LICENSE et examples/LICENSE.
+
+Aucune garantie. paginel-text est fourni « en l'état » et « selon disponibilité », sans garantie
+d'aucune sorte, expresse ou implicite, dans les limites permises par la loi : notamment aucune
+garantie de qualité marchande, d'adéquation à un usage particulier, d'absence de contrefaçon,
+d'exactitude des documents produits, ni de fonctionnement sans erreur ni interruption. Vous seul
+choisissez de l'utiliser et vérifiez ce qu'il produit avant de vous y fier. L'auteur n'a aucune
+obligation d'assistance, de maintenance, de correction ni de nouvelle version, et peut modifier ou
+arrêter paginel-text à tout moment.
+
+Aucune responsabilité. Dans les limites permises par la loi, l'auteur ne peut être tenu responsable
+d'aucun dommage, direct ou indirect, né de l'utilisation de paginel-text ou de l'impossibilité de
+l'utiliser, notamment la perte ou l'altération de données ou de documents, le manque à gagner,
+l'interruption d'activité ou les réclamations de tiers, même s'il a été averti de la possibilité
+de tels dommages.
+
+Les composants de tiers que contient paginel-text (bibliothèques, polices) restent soumis à leur
+propre licence : voir THIRD-PARTY-LICENSES.txt dans chaque archive.
+
+Ce dépôt étant public, les conditions de GitHub permettent aux autres utilisateurs de GitHub de le
+voir et de le copier (« fork ») sur GitHub.

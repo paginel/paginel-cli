@@ -1,0 +1,15 @@
+{
+  "output": "out/news.docx",
+  "contains": [
+    "A good year for the workshop",
+    "Our new workshop is twice as large as the old one.",
+    "is our first lamp with a dimmer",
+    "Morning mug",
+    "Sketch notebook",
+    "12.50 EUR"
+  ],
+  "not_contains": ["{{", "}}"],
+  "images": 7,
+  "tables": 1,
+  "rows": [3]
+}

@@ -1,0 +1,16 @@
+{
+  "output": "out/compte-rendu.docx",
+  "contains": [
+    "Compte rendu : lancement du nouveau site",
+    "12 novembre 2026",
+    "Hugo Bernard",
+    "Date de mise en ligne",
+    "Le site ouvre le",
+    "Préparer le courriel",
+    "26 novembre 2026"
+  ],
+  "not_contains": ["{{", "}}", "Aucune action", "pas encore fixée", "Les commentaires comme celui-ci"],
+  "images": 0,
+  "tables": 1,
+  "rows": [4]
+}

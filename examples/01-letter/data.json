@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "Bluefin Studio",
+    "website": "www.example.org",
+    "address": "1 Example Street, 75001 Paris",
+    "email": "hello@example.org"
+  },
+  "city": "Paris",
+  "date": "11 November 2026",
+  "recipient": {
+    "name": "Alex Morgan",
+    "street": "4 Example Lane",
+    "postcode": "69002",
+    "city": "Lyon"
+  },
+  "subject": "Your order is on its way",
+  "order": {
+    "reference": "BF_2026_*0042*",
+    "date": "4 November 2026",
+    "item": "*Harbour* desk lamp",
+    "ship_date": "**14 November**"
+  },
+  "offer": "**15% off** your next order with the code *WELCOME-BACK*, valid until the end of the year ([terms](https://example.org/terms))",
+  "details": "## What happens next\n\n1. We pack your lamp in recycled cardboard.\n2. The carrier picks it up on **14 November**.\n3. You receive it within three working days.\n\nGood to know:\n\n- the lamp comes with a bulb;\n- the cable is 1.8 m long;\n- you can return it within 30 days.",
+  "signature": {
+    "name": "Camille Durand",
+    "title": "Customer care"
+  }
+}

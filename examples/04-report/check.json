@@ -1,0 +1,17 @@
+{
+  "output": "out/report.docx",
+  "contains": [
+    "Customer insights 2026",
+    "Example Retail Ltd",
+    "Executive summary",
+    "Key findings",
+    "they spend 31% more per order than new customers;",
+    "Recommendations",
+    "Choose the pick-up point partner",
+    "We are a team of nine, based in Lyon"
+  ],
+  "not_contains": ["{{", "}}", "DRAFT", "not for distribution"],
+  "images": 3,
+  "tables": 2,
+  "rows": [4, 5]
+}

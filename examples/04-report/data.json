@@ -1,0 +1,15 @@
+{
+  "company": "Orchard Analytics",
+  "client": "Example Retail Ltd",
+  "title": "Customer insights 2026",
+  "subtitle": "Annual review of online sales and customer behaviour",
+  "draft": false,
+  "author": "Jordan Lee, Orchard Analytics",
+  "date": "11 November 2026",
+  "reference": "OA-2026-117_final",
+  "about": "Orchard Analytics helps retailers read their own data. We are a team of nine, based in Lyon, and we work with **shops of every size**, from a single store to national chains.",
+  "contact": {
+    "name": "Jordan Lee",
+    "email": "jordan.lee@example.org"
+  }
+}
