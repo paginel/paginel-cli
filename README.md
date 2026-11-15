@@ -150,19 +150,44 @@ French), to Word, PDF or Markdown. Each folder has its template, its data, a REA
 
 ## Install
 
-Download the archive for your system from the
-**[latest release](https://github.com/paginel/paginel-cli/releases/latest)**, check it against
-`SHA256SUMS.txt`, and put `paginel-text` on your `PATH`.
+**Linux** (x86_64, glibc 2.35 or later: Ubuntu 22.04, Debian 12, Fedora 36 and later):
 
-| System | Archive (version 0.3.0) |
-|---|---|
-| Linux x86_64, glibc 2.35 or later (Ubuntu 22.04, Debian 12, Fedora 36 and later) | `paginel-text-0.3.0-x86_64-unknown-linux-gnu.tar.gz` |
-| Windows 10 and 11, x64 | `paginel-text-0.3.0-x86_64-pc-windows-msvc.zip` |
+```sh
+curl -fsSL https://raw.githubusercontent.com/paginel/paginel-cli/main/install.sh | sh
+```
+
+**Windows** 10 and 11 (x64), in PowerShell:
+
+```powershell
+irm https://raw.githubusercontent.com/paginel/paginel-cli/main/install.ps1 | iex
+```
+
+Then `paginel-text --version`. The script downloads the archive of the latest release, checks it
+against `SHA256SUMS.txt`, and installs `paginel-text` for you alone, with no administrator rights:
+in `~/.local/bin` on Linux (if that folder is not on your `PATH`, it gives you the line to add), in
+`%LOCALAPPDATA%\Programs\paginel-text` on Windows, added to your user `PATH` (open a new terminal).
+Read them first if you like: [install.sh](install.sh), [install.ps1](install.ps1).
+
+- **Update**: run the same line again.
+- **Pin a version** in scripts and CI, so that a new release never changes your documents by
+  surprise: `curl -fsSL https://raw.githubusercontent.com/paginel/paginel-cli/main/install.sh | PAGINEL_CLI_VERSION=0.3.0 sh`;
+  in PowerShell, `$env:PAGINEL_CLI_VERSION = "0.3.0"` before the line. `PAGINEL_CLI_DEST` installs
+  into another folder.
+- **Uninstall**: delete the file (`rm ~/.local/bin/paginel-text`); on Windows, the folder above and
+  its entry in your user `PATH`.
 
 **There is no macOS build in version 0.3.0**: macOS (Apple silicon) comes in a later version. Each
 archive holds a folder of the same name with `paginel-text` (`paginel-text.exe` on Windows), a short
 `README.md`, the `LICENSE` and `THIRD-PARTY-LICENSES.txt`. There is no build yet for ARM Linux or
 Alpine (musl).
+
+<details>
+<summary><b>Install by hand</b>: download, check and copy, without the script</summary>
+
+| System | Archive (version 0.3.0) |
+|---|---|
+| Linux x86_64, glibc 2.35 or later (Ubuntu 22.04, Debian 12, Fedora 36 and later) | `paginel-text-0.3.0-x86_64-unknown-linux-gnu.tar.gz` |
+| Windows 10 and 11, x64 | `paginel-text-0.3.0-x86_64-pc-windows-msvc.zip` |
 
 **Linux**, in a terminal:
 
@@ -181,8 +206,7 @@ mkdir -p ~/.local/bin && mv $NAME/paginel-text ~/.local/bin/
   `PATH`: `echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc` (or `~/.zshrc` for zsh), then
   open a new terminal.
 - **glibc**: `ldd --version` shows your glibc version (2.35 or later is needed).
-- **Update**: run the same commands with the new `VERSION`; pin it in scripts and CI so that a new
-  release never changes your documents by surprise.
+- **Update**: run the same commands with the new `VERSION`.
 
 **Windows**, in PowerShell:
 
@@ -208,6 +232,8 @@ terminal:
 $UserPath = [Environment]::GetEnvironmentVariable("Path", "User")
 [Environment]::SetEnvironmentVariable("Path", "$UserPath;$env:LOCALAPPDATA\Programs\paginel-text", "User")
 ```
+
+</details>
 
 The `.exe` needs no Visual C++ runtime. It is not signed by Microsoft during the beta: SmartScreen
 may warn if you start it from the Explorer; run from PowerShell or `cmd.exe`, it starts without a
@@ -412,11 +438,13 @@ s'ouvre dans Word comme si vous l'aviez tapé, ou un PDF.
 paginel-text fill modele.docx donnees.json resultat.docx
 ```
 
-- **Installer** : l'archive de votre système dans la
-  [dernière version](https://github.com/paginel/paginel-cli/releases/latest) (Linux x86_64 avec
-  glibc 2.35 ou plus récente, Windows 64 bits ; pas de version macOS en 0.3.0, elle viendra
-  ensuite), vérifiée par `SHA256SUMS.txt`, puis `paginel-text` dans votre `PATH` (commandes
-  ci-dessus).
+- **Installer**, en une ligne (le script télécharge la dernière version, la vérifie par
+  `SHA256SUMS.txt` et installe `paginel-text` pour vous seul, sans droits d'administrateur) :
+  sous Linux x86_64 (glibc 2.35 ou plus récente),
+  `curl -fsSL https://raw.githubusercontent.com/paginel/paginel-cli/main/install.sh | sh` ;
+  sous Windows 64 bits, dans PowerShell,
+  `irm https://raw.githubusercontent.com/paginel/paginel-cli/main/install.ps1 | iex`. Pas de
+  version macOS en 0.3.0 : elle viendra ensuite.
 - **Balises** : `{{nom}}` (Markdown), `{{&nom}}` (texte brut), `{{#liste}}…{{/liste}}` (répéter un
   morceau de ligne, des paragraphes, des éléments de liste ou des lignes de tableau ; afficher si
   vrai), `{{^liste}}…{{/liste}}` (afficher si absent ou vide), `{{! commentaire }}`. Les noms peuvent
