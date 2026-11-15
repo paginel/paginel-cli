@@ -1,6 +1,6 @@
 <p align="center"><img src="icon.png" width="88" height="88" alt="Paginel"></p>
 
-<h1 align="center">paginel-text</h1>
+<h1 align="center">Paginel Text – CLI</h1>
 
 <p align="center"><b>Fill Word templates with Markdown, from the command line.</b><br>
 Type <code>{{placeholders}}</code> in a .docx, keep its styles, fill it from JSON: get a .docx or a PDF.</p>
@@ -17,6 +17,12 @@ Type <code>{{placeholders}}</code> in a .docx, keep its styles, fill it from JSO
   <sub>▶ <a href="#watch-the-film">Watch the 10-second film in full quality</a></sub>
 </p>
 
+**[Paginel](https://paginel.com)** is the word processor that complements Word and Google Docs, or
+replaces them. Your `.docx` files stay `.docx` files; your AI agents write in them too. Made in France.
+**Paginel Text – CLI** is its command-line version: the same engine as the app, in one command,
+`paginel-text`, for your scripts, servers and agents. The desktop app (macOS, Windows, Linux) is
+free and needs no account: [paginel.com](https://paginel.com).
+
 Type `{{placeholders}}` in a Word document, keep your styles, headers, logos and table styles, and
 let `paginel-text` fill them from JSON. Values are Markdown, so a value can be a word in a sentence,
 a bold name, a link, a picture, a table, or a whole report with headings, lists and footnotes. The
@@ -27,8 +33,7 @@ paginel-text fill template.docx data.json out.docx
 ```
 
 One binary, no runtime, no account, and it works offline. Linux and Windows (macOS in a later
-version). Made by [Paginel](https://paginel.com), the word processor that complements Word; the
-same engine as the Paginel app.
+version).
 
 <p align="center">
   <a href="#install"><b>Install</b></a> ·
@@ -389,7 +394,13 @@ hello@paginel.com. Security: [SECURITY.md](SECURITY.md).
 
 ---
 
-# paginel-text (français)
+# Paginel Text – CLI (français)
+
+**[Paginel](https://paginel.com)** est le traitement de texte qui complète Word et Google Docs, ou les
+remplace. Vos `.docx` restent des `.docx` ; vos agents IA y écrivent aussi. Fait en France.
+**Paginel Text – CLI** en est la version en ligne de commande : le même moteur que l'application,
+en une commande, `paginel-text`, pour vos scripts, vos serveurs et vos agents. L'application de
+bureau (macOS, Windows, Linux) est gratuite et sans compte : [paginel.com](https://paginel.com).
 
 **Remplir des modèles Word avec du Markdown, en ligne de commande.** Tapez des `{{champs}}` dans un
 document Word, gardez vos styles, en-têtes, logos et styles de tableau, et `paginel-text` les remplit
