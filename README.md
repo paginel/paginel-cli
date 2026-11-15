@@ -13,8 +13,8 @@ Type <code>{{placeholders}}</code> in a .docx, keep its styles, fill it from JSO
 </p>
 
 <p align="center">
-  <a href="media/paginel-text.mp4"><img src="media/paginel-text.gif" width="960" alt="paginel-text fills the {{placeholders}} of a Word invoice template from data.json: the template, the command and its report, then the filled invoice, a letter and a newsletter"></a><br>
-  <sub>▶ <a href="media/paginel-text.mp4">Watch the 10-second film in full quality (MP4, 1080p, 2.4 MB)</a></sub>
+  <a href="#watch-the-film"><img src="media/paginel-text.gif" width="960" alt="paginel-text fills the {{placeholders}} of a Word invoice template from data.json: the template, the command and its report, then the filled invoice, a letter and a newsletter"></a><br>
+  <sub>▶ <a href="#watch-the-film">Watch the 10-second film in full quality</a></sub>
 </p>
 
 Type `{{placeholders}}` in a Word document, keep your styles, headers, logos and table styles, and
@@ -82,6 +82,14 @@ Word: blocks kept 6, patched 28, rewritten 1, unrecognized 0; parts rewritten: w
 
 Not sure what a template expects? `paginel-text fields template.docx` lists its placeholders, and
 `paginel-text fields template.docx --example` writes a data skeleton to start from.
+
+### Watch the film
+
+The same invoice in 10 seconds: the template, the command and its report, the filled invoice, then a
+letter and a newsletter (1080p, no sound;
+[download the MP4](https://github.com/paginel/paginel-cli/raw/main/media/paginel-text.mp4), 2.4 MB).
+
+https://github.com/user-attachments/assets/16f1cd8c-6cfb-4e8e-92c5-b044be8e43d9
 
 ## Examples
 
