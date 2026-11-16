@@ -21,7 +21,7 @@ Type <code>{{placeholders}}</code> in a .docx, keep its styles, fill it from JSO
 replaces them. Your `.docx` files stay `.docx` files; your AI agents write in them too. Made in France.
 **Paginel Text – CLI** is its command-line version: the same engine as the app, in one command,
 `paginel-text`, for your scripts, servers and agents. The desktop app (macOS, Windows, Linux) is
-free and needs no account: [paginel.com](https://paginel.com).
+free and needs no account: [download it from GitHub](https://github.com/paginel/paginel-text/releases/latest).
 
 Type `{{placeholders}}` in a Word document, keep your styles, headers, logos and table styles, and
 let `paginel-text` fill them from JSON. Values are Markdown, so a value can be a word in a sentence,
@@ -426,7 +426,8 @@ hello@paginel.com. Security: [SECURITY.md](SECURITY.md).
 remplace. Vos `.docx` restent des `.docx` ; vos agents IA y écrivent aussi. Fait en France.
 **Paginel Text – CLI** en est la version en ligne de commande : le même moteur que l'application,
 en une commande, `paginel-text`, pour vos scripts, vos serveurs et vos agents. L'application de
-bureau (macOS, Windows, Linux) est gratuite et sans compte : [paginel.com](https://paginel.com).
+bureau (macOS, Windows, Linux) est gratuite et sans compte :
+[la télécharger sur GitHub](https://github.com/paginel/paginel-text/releases/latest).
 
 **Remplir des modèles Word avec du Markdown, en ligne de commande.** Tapez des `{{champs}}` dans un
 document Word, gardez vos styles, en-têtes, logos et styles de tableau, et `paginel-text` les remplit
